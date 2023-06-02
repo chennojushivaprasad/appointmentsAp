@@ -1,0 +1,46 @@
+/* Write your CSS here */
+
+.appointment-item {
+    width: 100%;
+    max-width: 350px;
+    padding: 20px;
+    border: 1px solid #b5b7c4;
+    border-radius: 20px;
+  }
+  
+  .appointment-title-date-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .starred-icon-btn {
+    border: none;
+    background-color: transparent;
+  }
+  
+  .starred-icon {
+    width: 25px;
+    height: 25px;
+  }
+  
+  .appointment-title {
+    font-weight: 600;
+    color: #171f46;
+  }
+  
+  .appointment-date {
+    margin-top: 10px;
+    color: #b5b7c4;
+    font-weight: 400;
+  }
+  
+  @media (max-width: 576px) {
+    .appointment-item {
+      height: 100px;
+      padding: 15px;
+      width: 100%;
+      max-width: none;
+    }
+  }
+  
